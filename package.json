@@ -22,7 +22,7 @@
     "test": "jasmine-ts \"src/**/*.spec.ts\"'",
     "lint": "eslint src/**/*.ts --quiet --fix",
     "watch": "npm-watch",
-    "prepublish": "eslint src/**/*.ts --quiet --fix tsc"
+    "prepublishOnly": "eslint src/**/*.ts --quiet --fix tsc"
   },
   "keywords": [],
   "author": "",
