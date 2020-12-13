@@ -7,7 +7,8 @@
   "watch": {
     "test": {
       "patterns": [
-        "src"
+        "src",
+        "spec"
       ],
       "extensions": "ts"
     },
