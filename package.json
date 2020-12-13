@@ -21,9 +21,9 @@
   },
   "scripts": {
     "test": "jasmine-ts \"spec/**/*.spec.ts\"'",
-    "lint": "eslint src/**/*.ts spec/**/*.ts --quiet --fix",
+    "lint": "eslint src/**/*.ts spec/**/*.ts --fix",
     "watch": "npm-watch",
-    "prepublishOnly": "eslint src/**/*.ts --quiet --fix tsc"
+    "prepublishOnly": "eslint src/**/*.ts --fix tsc"
   },
   "keywords": [],
   "author": "",
