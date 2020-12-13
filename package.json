@@ -13,14 +13,15 @@
     },
     "lint": {
       "patterns": [
-        "src"
+        "src",
+        "spec"
       ],
       "extensions": "ts"
     }
   },
   "scripts": {
-    "test": "jasmine-ts \"src/**/*.spec.ts\"'",
-    "lint": "eslint src/**/*.ts --quiet --fix",
+    "test": "jasmine-ts \"spec/**/*.spec.ts\"'",
+    "lint": "eslint src/**/*.ts spec/**/*.ts --quiet --fix",
     "watch": "npm-watch",
     "prepublishOnly": "eslint src/**/*.ts --quiet --fix tsc"
   },
